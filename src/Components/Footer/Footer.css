@@ -1,0 +1,61 @@
+/* Footer.css */
+
+.footer {
+  background-color: #333; /* Set your desired background color */
+  color: white; /* Set your desired text color */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 50px; /* Set the width of your logo image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.footer-logo p {
+  margin: 0;
+  font-size: 16px; /* Set your desired font size */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-links li {
+  margin: 0;
+  font-size: 14px; /* Set your desired font size */
+}
+
+.footer-social-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icons-container {
+  margin: 0 10px;
+}
+
+.icons-container img {
+  width: 30px; /* Set the width of your social media icons */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.footer-copyright {
+  margin-top: 20px;
+}
+
+.footer-copyright hr {
+  border: 0;
+  height: 1px;
+  background-color: white; /* Set your desired color for the horizontal line */
+}
+
+.footer-copyright p {
+  margin: 10px 0 0;
+  font-size: 12px; /* Set your desired font size */
+}

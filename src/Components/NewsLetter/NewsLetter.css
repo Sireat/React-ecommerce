@@ -1,0 +1,49 @@
+/* NewsLetter.css */
+
+.newsletter {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px;
+  }
+  
+  .newsletter h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .newsletter p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter input[type='email'] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add some hover effect to the button */
+  .newsletter button:hover {
+    background-color: #0056b3;
+  }
+  

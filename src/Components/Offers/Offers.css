@@ -1,0 +1,40 @@
+/* Offers.css */
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Reduce the padding to bring the divs closer */
+}
+
+.offers-left {
+  flex: 1;
+  margin-right: 5px; /* Reduce the margin on the right side of the left column */
+}
+
+.offers-left h1 {
+  font-size: 28px;
+}
+
+.offers-left p {
+  font-size: 14px;
+  margin-bottom: 5px; /* Reduce the margin at the bottom of the paragraph */
+}
+
+.offers-left button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px; /* Adjust padding for the button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.offers-right {
+  margin-right: 0; /* Set margin-right to 0 to move the image to the left */
+}
+
+.offers-right img {
+  max-width: 100%;
+  border-radius: 5px;
+}

@@ -1,0 +1,73 @@
+/* CSS/LoginSignup.css */
+
+.loginsignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loginsignup-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .loginsignup h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .loginsignup-fields input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .loginsignup-fields button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginsignup-fields button:hover {
+    background-color: hsl(103, 100%, 35%);
+  }
+  
+  .loginsignup-login {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .loginsignup-login span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .loginsignup-agree input {
+    margin-right: 10px;
+  }
+  
+  .loginsignup-agree p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  

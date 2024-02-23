@@ -1,0 +1,33 @@
+/* RelatedProducts.css */
+
+.rlatedproduct {
+    margin: 20px;
+  }
+  
+  .relatedproducts-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .relatedproducts-item > item {
+    /* Add styles for each product item */
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the heading */
+  .rlatedproduct h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the horizontal line */
+  .rlatedproduct hr {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,31 @@
+/* NewCollections.css */
+
+.newcollections {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .newcollections h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .newcollections hr {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .collection {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /* Fixed 4 columns per row */
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  

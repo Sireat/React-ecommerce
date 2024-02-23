@@ -1,0 +1,45 @@
+/* DescriptionBox.css */
+
+.descriptionbox {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .descriptionbox-navbox {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .descriptionbox-navbox-fade {
+    color: #888;
+  }
+  
+  .descriptionbox-description {
+    padding: 20px;
+  }
+  
+  .descriptionbox-description p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  /* Additional styling for links if needed */
+  .descriptionbox-description a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .descriptionbox-description a:hover {
+    text-decoration: underline;
+  }
+  
